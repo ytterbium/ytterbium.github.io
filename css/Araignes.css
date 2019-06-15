@@ -1,0 +1,149 @@
+
+body {
+	background-image: url("../image/P1010061.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+	
+}	
+h1 {
+	color: red;
+	font-family:comic sans MS;
+	font-size: 100px;
+	text-align: center; 
+}
+h2{ 
+color:red;
+font-family: Comic sans MS;
+font-size: 26px;
+text-align:justify;
+}
+p{
+	color: Black;
+	font-size: 20px;
+	font-family: Comic Sans MS;
+	text-align:justify;
+	
+}
+
+Ul{
+	color:black;
+	font-size: 20px;
+	font-family: Comic sans MS;
+	text-align:justify;
+}
+#global{
+	width:60%;
+	margin: 0% 20%;
+	padding: 10px 5%;
+	background-color: rgba(255,255,255,0.4);
+	border: 1px solid black;
+	box-shadow: 5px 0px 5px black, -5px 0px 5px black; 
+}
+
+nav {
+	bottom: 25%;
+	top:11,5%;
+	position:fixed;
+	}
+
+#menu-accordeon {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+  width: 180px;
+  
+}
+#menu-accordeon ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+}
+#menu-accordeon li {
+   background-color:orange; 
+   border-radius: 0px;
+   margin-bottom: -80px;
+   margin-top: 80px;
+   box-shadow: 3px 3px 3px #999;
+   border:solid 1px #333A40
+}
+#menu-accordeon li li {
+   max-height:0;
+   overflow: hidden;
+   transition: all .5s;
+   border-radius:0;
+   background: #444;
+   box-shadow: none;
+   border:none;
+   margin:0
+}
+#menu-accordeon a {
+  display:block;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 0;
+  font-family: verdana;
+  font-size:1.2em;
+}
+#menu-accordeon ul li a, #menu-accordeon li:hover li a {
+  font-size:1em
+}
+#menu-accordeon li:hover {
+   background: blue
+}
+#menu-accordeon li li:hover {
+   background: #999;
+}
+#menu-accordeon ul li:last-child {
+   border-radius: 0 0 6px 6px;
+   border:none;
+}
+#menu-accordeon li:hover li {
+  max-height: 15em;
+}
+nav > ul {
+	width: 100px;
+}
+
+nav ul li span {
+	border-bottom: 1px solid white;
+}
+
+nav ul li:hover span {
+	border-color: black;
+}
+
+
+nav ul ul {
+	display: none;
+  border: 1px solid black;
+	background-color: rgb(240,240,240);
+	width: 200px;
+	font-size: 0.7em;
+}
+
+nav li:hover ul {
+	display: block;
+	position: absolute;
+	left: 181px;
+	top: 0;
+}
+
+nav a, nav span {
+	display: relative;
+	width: 100%;
+	padding: 15px 5px 5px 10px;
+}
+
+
+nav > ul li {
+	position: relative;
+}
+
+
+nav li:hover {
+	cursor: context-menu;
+}
